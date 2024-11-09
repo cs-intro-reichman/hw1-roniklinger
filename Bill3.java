@@ -10,8 +10,8 @@ public class Bill3 {
 		
 		int price = Integer.parseInt(args[3]); 
 		double new_price = price;
-		String all_names = name1 + ", " + name2 + ", and" + name3 + ": ";
-		System.out.println("Dear " + all_names + Math.ceil(new_price/3) + " Shekels each.");
+		String all_names = name3 + ", " + name2 + ", and " + name1 + ": pay ";
+		System.out.println("Dear " + all_names + Math.ceil(new_price/3) + " Shekels each");
 
 	}
 }
