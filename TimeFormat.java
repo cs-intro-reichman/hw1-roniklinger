@@ -7,7 +7,10 @@ public class TimeFormat {
 
 		if (hours >= 12)
 		{
-			hours = Math.abs(hours - 12);
+			if(hours !=12)
+			{
+				hours = Math.abs(hours - 12);
+			}
 			if (minutes < 10)
 			{
 				System.out.println(hours + ":0" + minutes +" PM");
