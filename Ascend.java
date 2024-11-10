@@ -12,6 +12,7 @@ public class Ascend {
 		int b = rand.nextInt(lim);
 		int c = rand.nextInt(lim);
 		System.out.println(a + ", " + b + ", " + c);
+		
 		int x = Math.min(a, b);
 		int min = Math.min(x, c);
 		int y = Math.max(a, b);
